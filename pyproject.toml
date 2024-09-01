@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "whatsapp"
+version = "0.1.0"
+description = ""
+authors = ["Osmar Pereira <bibliotecaosmar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiofiles = "^24.1.0"
+asyncio = "^3.4.3"
+pytest = "^8.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
