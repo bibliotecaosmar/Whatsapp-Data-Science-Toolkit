@@ -197,3 +197,6 @@ config.py
 /word_search
 
 *.txt
+
+*.toml
+*.lock
